@@ -1,0 +1,16 @@
+name: opc
+version: 0.0.1
+
+environment:
+  sdk: ^3.9.2
+
+resolution: workspace
+
+dependencies:
+  iri: ^0.1.1
+  mime: ^2.0.0
+
+dev_dependencies:
+  test: ^1.25.6
+  coverage: ^1.15.0
+  glados: ^1.1.7

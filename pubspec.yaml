@@ -1,0 +1,9 @@
+name: _opc
+publish_to: none
+environment:
+  sdk: ^3.6.0
+workspace:
+  - packages/opc
+
+dev_dependencies:
+  lints: ^6.0.0
