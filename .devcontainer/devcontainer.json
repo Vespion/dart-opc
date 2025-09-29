@@ -1,0 +1,17 @@
+{
+    "name": "Dart Development Container",
+    "image": "dart:stable-sdk",
+    "features": {
+        "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+            "packages": "gpg"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Dart-Code.dart-code",
+                "arniu.vscode-abnf"
+            ]
+        }
+    }
+}
